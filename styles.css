@@ -12,11 +12,11 @@ html {
 
 .box {
   padding: 2em;
-  background-color: beige;
+  background-color: rgb(245, 245, 239);
   color: Black;
   text-align: center;
   border-radius: 8px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 800px;
 }
 
@@ -40,11 +40,11 @@ html {
 
 .about-box-schedule {
   padding: 2em;
-  background-color: beige;
+  background-color: rgb(245, 245, 239);
   color: Black;
   text-align: center;
   border-radius: 8px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #hours {
@@ -82,11 +82,23 @@ html {
 @font-face {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 100 900; /* Supports the full weight range */
+  font-weight: 100 900;
   font-display: swap;
   src: url("/fonts/Inter-VariableFont_slnt,wght.woff2") format("woff2");
 }
 
-.header {
-  font-family: "Inter", sans-serif;
+.box_header {
+  padding: 2em;
+  background-color: rgb(255, 255, 255);
+  color: Black;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 2rem;
+}
+
+#contact_form {
+  font-size: 1.5rem;
+  display: flex;
+  padding: 25px;
+  text-align: left;
 }
