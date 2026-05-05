@@ -6,7 +6,7 @@ html {
 .grid-container {
   display: grid;
   gap: 1em;
-  grid-template-rows: 1fr 2fr 2fr 1fr;
+  grid-template-rows: auto;
   justify-content: center;
 }
 
@@ -20,10 +20,19 @@ html {
   width: 800px;
 }
 
+#list_to_visit {
+  display: flex;
+  justify-content: left;
+}
+
+#reasons {
+  list-style-type: square;
+}
+
 .about-grid-container {
   display: grid;
   gap: 1em;
-  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-rows: auto;
   justify-content: center;
   width: auto;
   height: auto;
@@ -46,10 +55,8 @@ html {
 .grid-container-visit-us {
   display: grid;
   gap: 1em;
-  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-rows: auto;
   justify-content: center;
-  width: auto;
-  height: auto;
 }
 
 #form_submission {
@@ -70,4 +77,16 @@ html {
   color: black;
   padding: 14px 20px;
   font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900; /* Supports the full weight range */
+  font-display: swap;
+  src: url("/fonts/Inter-VariableFont_slnt,wght.woff2") format("woff2");
+}
+
+.header {
+  font-family: "Inter", sans-serif;
 }
