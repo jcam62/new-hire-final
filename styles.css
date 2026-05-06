@@ -74,8 +74,8 @@ html {
 .grid-container-gallery {
   display: grid;
   gap: 1em;
-  grid-template-rows: auto;
   justify-content: center;
+  justify-items: auto;
 }
 .navbar a {
   display: block;
